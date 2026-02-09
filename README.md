@@ -1,3 +1,7 @@
+# cs2_webradar-fast-without-advertisement
+
+> The original project comes from clauadv's cs2_webradar, and here adjustments are made specifically for the network conditions in mainland China.
+
 # cs2_webradar
 
 > [!IMPORTANT]
