@@ -1,40 +1,45 @@
-# cs2_webradar-fast-without-advertisement
+# cs2_网页雷达-快速-去广告
 
-> The original project comes from clauadv's cs2_webradar, and here adjustments are made specifically for the network conditions in mainland China.
+> 原项目来自clauadv的cs2_webradar，这里只针对中国大陆地区的网络情况做出适当调整
 
-# cs2_webradar
+# cs2_网页雷达
 
 > [!IMPORTANT]
-> This version is still supported, but **[hurracan](https://hurracan.com)** provides a plug & play experience with instant sharing, completely new and responsive interface, a custom overlay for seamless integration with the game, and kernel level security. **[Get your 7-day free trial today!](https://hurracan.com/account/products/web-radar/buy-plan)**
+> 此版本仍受支持，但 **[hurracan](https://hurracan.com)** 提供了即插即用体验和即时分享功能。
 
 [![discord](https://img.shields.io/badge/discord-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/qEBpufFkXK)
-[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/clauadv/cs2_webradar/blob/master/readme.md)
-[![en](https://img.shields.io/badge/lang-cn-blue.svg)](https://github.com/clauadv/cs2_webradar/blob/master/readme-CN.md) <br>
-Undetected Counter-Strike 2 browser-based radar cheat
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/clauadv/cs2_webradar/blob/master/readme.md) <br>
+未检测到的 Counter-Strike 2 基于浏览器的雷达作弊
 
-## Requirements
+## 系统要求
 - [Node.js](https://nodejs.org/en/download)
 - [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
 
-## Usage
-- In the root folder, run `install.bat` to install dependencies
-- In the root folder, run `start.bat` to start the webapp
-- In `usermode` project, run `cs2_webradar.sln`
-- In visual studio's toolbar, hover on `Build` and press `Build Solution` or press `Ctrl + Shift + B`
-- In `release` folder, run `usermode.exe` and, in your browser navigate to `localhost:5173` <br>
+## 使用方法
+- 在根文件夹中，运行 `install.bat` 来安装依赖
+- 在根文件夹中，运行 `start.bat` 来启动网页应用
+- 在 `usermode`   项目中，运行 `cs2_webradar.sln`
+- 在 `Visual Studio` 的工具栏中，将鼠标悬停在 `生成` 上并点击 `生成解决方案` 或按 `Ctrl + Shift + B`
+- 在 `release` 文件夹中，运行 `usermode.exe`，然后在浏览器中访问 `localhost:5173`
 
-## Sharing
+## 分享给他人
 > [!TIP]
-> For easier sharing, consider **[hurracan](https://hurracan.com)** which handles this automatically.
-- After you built `usermode` project, open `config.json` and change `m_use_localhost` to `false`
-- In `react` project, `App.jsx` line 10, change `const USE_LOCALHOST = 1;` to `const USE_LOCALHOST = 0;`
-- In `react` project, `App.jsx` line 12, change `const PUBLIC_IP = "your ip";` with your IP Address
-- In `cmd`, type `ipconfig`, find `Default Gateway` and navigate to it in your browser
-- In your router configuration, find `Port Forwarding` tab and forward port `22006/tcp` and `5173/tcp`
-- Now your friends can see the radar by navigating to `your public ip:5173`
+> 为了更轻松的分享，考虑使用 **[hurracan](https://hurracan.com)**，它可以自动处理此功能。
+- 构建 `usermode` 项目后，打开 `config.json` 并将 `m_use_localhost` 改为 `false`
+- 在 `react` 项目的 `App.jsx` 第10行，将 `const USE_LOCALHOST = 1;` 改为 `const USE_LOCALHOST = 0;`
+- 在 `react` 项目的 `App.jsx` 第12行，将 `const PUBLIC_IP = "your ip";` 中的内容改为你的IP地址
+- 在 `cmd` 中，输入 `ipconfig`，找到 `默认网关` 并在浏览器中访问它
+- 在路由器配置中，找到 `端口转发` 标签页并转发端口 `22006/tcp` 和 `5173/tcp`
+- 现在你的朋友可以通过访问 `你的公网IP:5173` 来查看雷达
 
-## Showcase
+## 视频展示
 https://github.com/clauadv/cs2_webradar/assets/26169415/718d5969-004b-4300-b152-2051a75d490d
 
-## License
-This project is licensed under the [GPL-3.0 license](https://github.com/clauadv/cs2_webradar?tab=GPL-3.0-1-ov-file#readme)
+## 支持
+- 官匹 ✅
+- R0对战平台 ？
+- 完美世界 ❌
+- 5E对战平台 ❌
+
+## 许可协议
+本项目基于 [GPL-3.0 license](https://github.com/clauadv/cs2_webradar?tab=GPL-3.0-1-ov-file#readme) 许可协议
